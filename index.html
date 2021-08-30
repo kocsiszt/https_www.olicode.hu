@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="/favicon.png">
+        
+        <title>Company name &mdash; Company app name</title>
+    </head>
+
+    <header>       
+
+            <div class="container">
+                    <div class="shape" id="element-one">
+                        <span class="text">
+                            1
+                        </span>
+                    </div>
+                    <div class="shape" id="element-two">
+                        <span class="text">
+                            2
+                        </span>
+                    </div>
+                    <div class="shape" id="element-three">
+                        <span id="3as" class="text">
+                            3
+                        </span>
+                    </div>
+                    <div class="shape" id="element-four">
+                        <span class="text">
+                            4
+                        </span>
+                    </div>
+                    <div class="shape" id="element-five">
+                        <span class="text">
+                            5
+                        </span>
+                    </div>
+                    <div class="shape" id="element-six">
+                        <span class="text">
+                            6
+                        </span>
+                        <form id="box-6">
+                            <input class="w-95" type="number" name="boxNumber" style="width: 40%">
+                            <button class="w-100" type="submit" style="width: 25%;">Küldés</button>
+                        </form>
+                    </div>
+                    <div class="shape" id="element-seven">
+                        <span class="text">
+                            7
+                        </span>
+                            <input class="w-95" type="text" name="boxNumber" id="box7-input">
+                        </form>
+                    </div>
+                    <div class="shape parent-table" id="element-eight">
+                        <span class="child-table">
+                            8
+                        </span>
+                    </div>
+                    <div class="shape" id="element-nine">
+                        <span class="text">
+                            9
+                        </span>
+                        <form id="box-9">
+                            <select name="operator">
+                                <option value="mult">×</option>
+                                <option value="div">/</option>
+                                <option value="add">+</option>
+                                <option value="sub">-</option>
+                            </select>
+                            <input class="w-95" type="number" name="operand" style="width: 50%">
+                            <button class="w-100" type="submit" style="width: 50%;">Küldés</button>
+                        </form>
+                    </div>
+               </div>
+
+    </header>
+
+    
+    <body>
+        
+
+       <div class="wrapper clearfix">
+        <div class="player-0-panel active">
+            <div class="player-name" id="name-0">Player 1</div>
+            <div class="player-score" id="score-0">43</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-0">11</div>
+            </div>
+        </div>
+        
+        <div class="player-1-panel">
+            <div class="player-name" id="name-1">Player 2</div>
+            <div class="player-score" id="score-1">72</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-1">0</div>
+            </div>
+        </div>
+        
+        <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+        <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+        <input type="text" placeholder="Final score" class="final-score">;
+        
+        <img src="dice-5.png" alt="Dice" class="dice" id="dice-1">
+        <img src="dice-5.png" alt="Dice" class="dice" id="dice-2">
+    </div>
+    </body>
+
+    <script src="/scripts.js"></script>
+    <script src="/pig_game.js"></script>
+</html>

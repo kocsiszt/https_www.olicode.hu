@@ -1,0 +1,4 @@
+ennyit kell csak átmásolni
+
+https://fontello.com/
+a _fonts.scss a sass mappában van
